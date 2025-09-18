@@ -1,0 +1,26 @@
+/* Chat Widget Styles */
+#chatbase-bubble-window {
+    margin: 20px !important;
+    padding: 15px !important;
+    border-radius: 12px !important;
+}
+
+#chatbase-bubble-button {
+    margin: 20px !important;
+    right: 20px !important;
+    bottom: 20px !important;
+}
+
+/* Make sure the widget doesn't overlap with other elements */
+@media screen and (max-width: 768px) {
+    #chatbase-bubble-window {
+        margin: 10px !important;
+        padding: 10px !important;
+    }
+    
+    #chatbase-bubble-button {
+        margin: 10px !important;
+        right: 10px !important;
+        bottom: 10px !important;
+    }
+}
